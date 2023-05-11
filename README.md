@@ -1,5 +1,6 @@
 # PatronesEstructuralesEjercicio2
 
+Mi repositorio es : https://github.com/RRG1312/PatronesEstructuralesEjercicio2.git
 
 ## Diagrama de clases para resolver el ejercicio 2
 @startuml  
