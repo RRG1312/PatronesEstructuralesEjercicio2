@@ -1,8 +1,10 @@
 package factorias;
 
 import objetos.ArchivoBase;
+import objetos.Fichero;
 
-public abstract class FactoriaBase {
-    public abstract ArchivoBase crearArchivo(String nombre, int tamano, ArchivoBase base);
-
+public abstract class FactoriaBase implements InterfazFactoria{
+    String nombre;
+    int tamano;
+    ArchivoBase base;
 }
