@@ -7,9 +7,10 @@
 interface InterfazBase  
 abstract class ArchivoBase  
 class Directorio  
-class Fichero  
+class Fichero   
 class Link  
 
+interface InterfazFactoria  
 abstract class FactoriaBase  
 class FactoriaDirectorio  
 class FactoriaFichero  
@@ -20,11 +21,12 @@ ArchivoBase <-- Directorio
 ArchivoBase <-- Fichero  
 ArchivoBase <-- Link   
 
+InterfazFactoria <-- FactoriaBase  
 FactoriaBase <-- FactoriaDirectorio  
 FactoriaBase <-- FactoriaFichero  
 FactoriaBase <-- FactoriaLink  
 
-@enduml  
+@enduml   
 
 
-![UML](http://www.plantuml.com/plantuml/png/RP512W8n34NtEKKlC3TmCOeC25uYniW4nocaqOMdLwS6QiPT-dxw_o_jYw7Q_JO1o6oi5oHEXpezTrWOy5HCaIpHXAMahT8eZxn8bUn5cIohv2yOX4PMFnrbla9q6N2vWOsDevMT2zKsqchVDawRhlkfwRDhJKAKF2FoJqe2y53d_qh7dT1_lH2UqlDyVl_72m00)
+![UML](http://www.plantuml.com/plantuml/png/TP5H2i8m38RVTufUO3VmOOeC12yHOsJ1kK8QVV3qQcimBUuj-Rzi7pyTaeBe_JPt7IzASW6aS2ZJSmU9EZWb5K0DE4DAOIiuyIDcL98z2w56uVWDHiQ9nBOZBzT_FnyXVmIjm79diAWsEU2CBYrcNoPi-hvgOBCnPsYHEThyOma_ZSapgxhufQ9EkdfZzfK3AplGSdu_vWi0)
